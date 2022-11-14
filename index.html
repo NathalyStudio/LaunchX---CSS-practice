@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vaccination</title>
+</head>
+<body>
+    <main class="main-header">
+        <header class="header">
+            <nav class="nav-header flex space-around">
+                <a href="" class="logo">Vaccination</a>
+                <ul class="header-list-items flex flex-row flex-x-center">
+                    <li class="item body-text p-right p-left"><a href="#">Database</a></li>
+                    <li class="item body-text p-right p-left"><a href="#">Education</a></li>
+                    <li class="item body-text p-right p-left"><a href="#">News</a></li>
+                    <li class="item body-text p-right p-left"><a href="#">Regulation</a></li>
+                    <li class="item body-text p-right p-left"><a href="#" class="button">Hoax Buster</a></li>
+                    
+                </ul>
+                <div class="rectangle-blu"></div>
+            </nav>
+        </header>
+    </main>
+    <section class="main-hero flex">
+        <div class="column50 ">
+            <div class="down-chevron"></div>
+            <div class="hero-info">
+                <h1 class="heading hero-heading">Fight virus with vaccines</h1>
+                <p class="copy-hero">Let's stop this pandemic by killing the virus with a vaccine, don't let yourself and your family get infected</p>
+                <div class="icon-wrapper flex flex-row space-between">
+                    <div class="icon1 flex flex-row">
+                        <img src="Assets/images/shield-check.png" alt="Shield with a check mark inside" class="icon-highlight">
+                        <p class="icon-text">Best Protection</p>
+                    </div>
+                    <div class="icon2 flex flex-row">
+                        <img src="Assets/images/chistmas-star.png" alt="yellow star" class="icon-highlight">
+                        <p class="icon-text">Selected Vaccines</p>
+                    </div>
+                </div>
+                <div class="icon-wrapper flex flex-row schedule-header">
+                    <img src="Assets/images/icons8-clock-24.png" alt="blue clock icon" class="icon blue-blur-background">
+                    <h2 class="heading">Schedule your vaccinations</h2>
+                </div>
+                <form action="" method="post">
+                    <div class="floating-scheduling">
+                    <div class="container flex flex-row space-around">
+                        <div class="location">
+                            <div class="location-wrapper flex flex-row flex-x-center">
+                                <img src="Assets/images/icons8-location-24.png" alt="location icon in blue" 
+                                class="blue-blur-background icon-floating-schedule" height="auto">
+                                <h3 class="floating-heading">Location</h3> 
+                            </div>
+                            <select name="location" id="location" class="select">
+                                <option value="Jakarta Utara">Jakarta Utara</option>
+                                <option value="Cabudare">Cabudare</option>
+                                <option value="New Jersey">New Jersey</option>
+                            </select>
+                        </div>
+                        <div class="date-column">
+                            <div class="date-wrapper flex flex-row flex-x-center">
+                                <img src="Assets/images/icons8-timeline-week-25.png" alt="calendar timeline week" 
+                                class="blue-blur-background icon-floating-schedule" height="auto">
+                                <h3 class="floating-heading">Date</h3> 
+                            </div>
+                            <input type="date" name="calendar-date" id="" class="select">
+                        </div>
+                        <div class="vaccine_type">
+                            <div class="vaccine_type-wrapper flex flex-row flex-x-center">
+                                <img src="Assets/images/icons8-edit-32.png" alt="vaccine icon in blue" 
+                                class="blue-blur-background icon-floating-schedule" height="auto">
+                                <h3 class="floating-heading">Vaccine Type</h3> 
+                            </div>
+                            <select name="vaccine_type" id="vaccine_type" class="select">
+                                <option value="Moderna">Moderna</option>
+                                <option value="Pfizer">Pfizer</option>
+                                <option value="AstraZeneca">AstraZeneca</option>
+                            </select>
+                        </div>
+                        <div class="submit-btn">
+                            <input type="button" value="Submit" class="button xl-btn">
+                        </div>
+                    </div>
+                </div>
+                </form>
+                
+            </div>       
+        </div>
+        <div class="column50">
+            <img src="Assets/images/first_image.jpg" alt="nurse with blood syringe" srcset="" class="hero-image">
+            <div class="left-chevron"></div>
+        </div>
+    </section>
+    <footer class="footer">
+        <nav class="footer">
+            <ul class="menu-footer">
+                <li class="logo">Vaccination</li>
+                <li class="footer-nav-item">Our goal is to help the world free from the ongoing pandemic</li>
+            </ul>
+            <ul class="menu-footer">
+                <li class="heading-footer">About</li>
+                <li class="footer-item"><a href="#" class="item-link">About Us</a></li>
+                <li class="footer-item"><a href="#" class="item-link">Features</a></li>
+                <li class="footer-item"><a href="#" class="item-link">News & Blog</a></li>
+            </ul>
+            <ul class="menu-footer">
+                <li class="heading-footer">Company</li>
+                <li class="footer-item"><a href="#" class="item-link">How we work?</a></li>
+                <li class="footer-item"><a href="#" class="item-link">Capital</a></li>
+                <li class="footer-item"><a href="#" class="item-link">Security</a></li>
+            </ul>
+            <ul class="menu-footer">
+                <li class="heading-footer">Support</li>
+                <li class="footer-item"><a href="#" class="item-link">FAQs</a></li>
+                <li class="footer-item"><a href="#" class="item-link">Support Center</a></li>
+                <li class="footer-item"><a href="#" class="item-link">Contact Us</a></li>
+            </ul>
+            <div class="footer-bottom">
+                <div class="footer-column1">
+                    <p class="copyrights">@2021 Vaccination. All rights reserved</p>
+                </div>
+                <div class="footer-column2">
+                    <a href="#" class="footer-item">Terms & Agreements</a>
+                    <a href="#" class="footer-item">Privacy Policy</a>
+                </div>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>

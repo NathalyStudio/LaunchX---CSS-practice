@@ -1,0 +1,49 @@
+.flex{
+    display: flex;
+}
+.grid{
+    display: grid;
+}
+.accent-background{
+    background-color: linear-gradient(149deg, rgba(8,153,230,1) 0%, rgba(53,98,218,1) 100%);;
+}
+.gray-text{
+    color: #eef3ff;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-x-center{
+    align-items: center;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.body-text{
+    font-family: 'Poppins';
+}
+.space-around{
+    justify-content: space-around;
+}
+.p-right{
+    padding-right: 2rem;
+}
+.p-left{
+    padding-left: 2rem;
+}
+.column50{
+    width: 50%;
+}
+.space-between{
+    justify-content: space-between;
+}
+.blue-blur-background{
+    background-color: var(--light-blue);
+}
+.container{
+    padding: 1rem;
+}
+.xl-btn{
+    width: 100%;
+    min-width: 9.6875rem;
+}

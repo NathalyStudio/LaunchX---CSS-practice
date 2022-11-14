@@ -1,0 +1,14 @@
+:root{
+   --blue: #2949c7;
+   --light-blue: #e8f4fc;
+   --dark-blue: #1c3c74;
+   --gray: #6d7b93;
+   --light-gray: #f4f6fb;
+   --light-yellow: #fff6d4;
+   --page-width: 1400px;
+   --margin-centered: 0 auto;
+   --opacity: .5;
+   --primary-text-color: #000;
+   --invert-accent-color: #fefefa;
+   --border-radius: 7px;
+}
